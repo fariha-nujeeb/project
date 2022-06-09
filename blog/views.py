@@ -108,3 +108,5 @@ def delete_post(request, id):
       return HttpResponseRedirect('/dashboard/')
   else:
     return HttpResponseRedirect('/login/')
+
+    #checking functionality
